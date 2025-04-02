@@ -1,0 +1,12 @@
+name: Companion
+version: '1.0-SNAPSHOT'
+main: fr.bxcchus.companion.Companion
+api-version: '1.21'
+depend: [Citizens]
+listeners:
+  - fr.bxcchus.companion.CompanionListener
+commands:
+    companion:
+        description: Companion command
+        usage: /companion
+        aliases: [c]
